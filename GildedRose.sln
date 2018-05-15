@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose.Tests", "src\GildedRose.Tests\GildedRose.Tests.csproj", "{CD4715A2-532E-4C74-BC40-36EE64F61FCA}"
 EndProject
@@ -26,6 +26,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{B8B88B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose.Console", "src\GildedRose.Console\GildedRose.Console.csproj", "{F2E879A9-7F1C-4C34-AB0D-2662F9815046}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose.Domain", "src\GildedRose.Domain\GildedRose.Domain.csproj", "{684D3EF0-65A9-4A2E-8500-55FB2B2FE8A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose.Services", "src\GildedRose.Services\GildedRose.Services.csproj", "{09F072D1-2753-4A38-A87D-1EE1AB50FAA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,8 +44,19 @@ Global
 		{F2E879A9-7F1C-4C34-AB0D-2662F9815046}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2E879A9-7F1C-4C34-AB0D-2662F9815046}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2E879A9-7F1C-4C34-AB0D-2662F9815046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{684D3EF0-65A9-4A2E-8500-55FB2B2FE8A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{684D3EF0-65A9-4A2E-8500-55FB2B2FE8A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{684D3EF0-65A9-4A2E-8500-55FB2B2FE8A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{684D3EF0-65A9-4A2E-8500-55FB2B2FE8A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09F072D1-2753-4A38-A87D-1EE1AB50FAA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09F072D1-2753-4A38-A87D-1EE1AB50FAA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09F072D1-2753-4A38-A87D-1EE1AB50FAA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09F072D1-2753-4A38-A87D-1EE1AB50FAA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5F3AF12-C223-4959-AA73-7643C80B147D}
 	EndGlobalSection
 EndGlobal
