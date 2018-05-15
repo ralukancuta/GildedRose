@@ -53,5 +53,7 @@ Quality is 80 and it never alters.
 ## My solution
 
 Extracted multiple algorithms to update quality for different types of products.
+
 Created a Service to Update items using a specific algorithm and used Dependency Injection to make the service available into the Console App. 
+
 Added Unit tests.
